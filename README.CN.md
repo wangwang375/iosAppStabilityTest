@@ -123,15 +123,15 @@
 
  2.  选择可用的开发者账号
 
-	![image-20230323111029126](https://cdn.jsdelivr.net/gh/wangwang375/pic_bed/PicGoimage-20230323111029126.png)
+![image-20230323111029126](https://cdn.jsdelivr.net/gh/wangwang375/pic_bed/PicGoimage-20230323111029126.png)
 
  3.  选择可用的ios设备
 
-	![image-20230323110636781](https://cdn.jsdelivr.net/gh/wangwang375/pic_bed/PicGoimage-20230323110636781.png)
+![image-20230323110636781](https://cdn.jsdelivr.net/gh/wangwang375/pic_bed/PicGoimage-20230323110636781.png)
 
  4.  安装运行app
 
-	![image-20230323111214141](https://cdn.jsdelivr.net/gh/wangwang375/pic_bed/PicGoimage-20230323111214141.png)
+![image-20230323111214141](https://cdn.jsdelivr.net/gh/wangwang375/pic_bed/PicGoimage-20230323111214141.png)
 
 至此，ExampleApp已被安装在你的设备，你可以根据“使用说明”中的详细教程来测试稳定性测试程序的表现如何。
 
