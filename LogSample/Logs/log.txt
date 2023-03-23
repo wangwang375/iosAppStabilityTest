@@ -1,0 +1,19 @@
+2023-03-23 10:23:55 ***<Test begin!>***
+2023-03-23 10:23:56 step1: tap "go to page1" Button
+2023-03-23 10:23:58 step2: double tap "Back" Button
+2023-03-23 10:24:00 step3: tap "go to page1" Button
+2023-03-23 10:24:02 step4: double tap "Back" Button
+2023-03-23 10:24:04 step5: tap "tap to trigger crash" Button
+2023-03-23 10:24:06 The app crashed. The screenshot before the crash has been saved in the screenshot folder.
+2023-03-23 10:24:07 step6: tap "tap to trigger crash" Button
+2023-03-23 10:24:09 The app crashed. The screenshot before the crash has been saved in the screenshot folder.
+2023-03-23 10:24:10 step7: tap "go to page1" Button
+2023-03-23 10:24:12 step8: tap "Back" Button
+2023-03-23 10:24:14 step9: tap "go to page1" Button
+2023-03-23 10:24:16 step10: double tap "Back" Button
+2023-03-23 10:24:18 step11: tap "go to page1" Button
+2023-03-23 10:24:20 step12: double tap "Back" Button
+2023-03-23 10:24:22 step13: tap "go to page1" Button
+2023-03-23 10:24:24 step14: tap "Back" Button
+2023-03-23 10:24:26 step15: tap "go to page1" Button
+2023-03-23 10:24:27 ***<Test finished!>***
