@@ -25,11 +25,11 @@ final class AppStabilityUITests: XCTestCase {
                                                       "double tap": {element in element.doubleTap()}]
         
         // Customize the types of all UI element objects that need to be operated on. Each step of the test will randomly select one UI element from the specified type
-        let type:[XCUIElement.ElementType] = [.button, .switch, .cell]
+        let type:[XCUIElement.ElementType] = [.button, .radioButton, .checkBox, .textField, .secureTextField, .textView, .comboBox, .popUpButton, .menuButton, .menuItem, .segmentedControl, .picker, .pickerWheel, .toggle, .switch, .cell, .image,]
         
         // To start the test, you can modify the value of the duration parameter to define the test execution time in seconds. You can also modify the value of the stepInterval parameter to define the time interval between each UI operation, which is also in seconds.
         // Note: The value of stepInterval is recommended to be greater than or equal to 0.5, otherwise unpredictable errors may result and affect the test process.
-        st.startTesting(duration: 30, elementType: type, actions: actions)
+        st.startTesting(duration: 200, elementType: type, actions: actions, stepInterval: 1)
         
         // To add the log files to the test results file, you can view it on your Mac. The test results file path: /User/Library/Developer/Xcode/DerivedData/AppStability-*/Logs.
         let zipFile = "\(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0])/Logs.zip"

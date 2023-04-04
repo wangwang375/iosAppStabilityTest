@@ -71,10 +71,13 @@ public class StabilityTestRunner{
                 performRandomAction(on: element!, actions: actions) // Perform random UI operations.
                 XCTWaiter().wait(for: [XCTNSPredicateExpectation(predicate: NSPredicate(format: "self == %d", XCUIApplication.State.runningForeground.rawValue), object: app)], timeout: stepInterval)
                 if app.state != .runningForeground {
+                    if app.state == .notRunning || app.state == .unknown {
+                        Utils.saveImagesToFiles(images: screenshotData)
+                        Utils.saveImagesToFiles(images: screenshotOfElementData, name: "screenshot_element")
+                        Utils.log("The app crashed. The screenshot before the crash has been saved in the screenshot folder.")
+                    }
                     app.activate()
-                    Utils.saveImagesToFiles(images: screenshotData)
-                    Utils.saveImagesToFiles(images: screenshotOfElementData, name: "screenshot_element")
-                    Utils.log("The app crashed. The screenshot before the crash has been saved in the screenshot folder.")
+                    
                 }
             }
         }
